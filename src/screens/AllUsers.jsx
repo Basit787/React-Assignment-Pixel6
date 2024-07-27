@@ -150,9 +150,9 @@ const AllUsers = () => {
 
   return (
     <Page>
-      <div className="flex flex-row justify-between mt-10 mb-4 mx-5">
-        <h1 className="text-black font-bold text-2xl">Employees</h1>
-        <div className="flex flex-row gap-2 items-center">
+      <div className="flex flex-row justify-between mt-10 mb-4 mx-5 ">
+        <h1 className="text-black font-bold md:text-2xl">Employees</h1>
+        <div className="flex md:flex-row flex-col gap-2 items-center">
           <BsFillFunnelFill
             className={`${
               useFilter ? "text-black" : "text-[#a3372f]"
@@ -185,7 +185,7 @@ const AllUsers = () => {
           </div>
         </div>
       </div>
-      <div className=" mx-5  border-2 border-gray-200 rounded-xl">
+      <div className=" mx-5  border-2 border-gray-200 rounded-xl overflow-auto">
         <table class="min-w-full divide-y divide-gray-200 rounded-lg">
           <thead>
             <tr>

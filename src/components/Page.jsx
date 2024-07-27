@@ -7,7 +7,7 @@ const Page = ({ children }) => {
     <div className="m-5 border-gray-200 border-2 rounded">
       <div className="flex flex-row justify-between items-center m-2 ">
         <img src={logo} alt={logo} className="h-14" />
-        <BsList className="mx-5 text-[#a3372f] text-xl font-bold cursor-pointer" />
+        <BsList className="mx-5 text-red-500 text-xl font-bold cursor-pointer" />
       </div>
       <hr />
       <div className="m-2">{children}</div>
